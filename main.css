@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #3498db;
+  background-color: #ff477e;
   color: white;
   padding: 30px 0;
   text-align: center;
@@ -24,18 +24,18 @@ h1 {
 }
 
 #new-task-input {
-  padding: 10px; /* Increased padding for input */
+  padding: 10px; 
   font-size: 16px;
-  font-weight: bold; /* Increased font weight */
+  font-weight: bold; 
 }
 
 #new-task-submit {
   background-color: #2980b9;
   color: white;
   border: none;
-  padding: 10px 20px; /* Increased padding for button */
+  padding: 10px 20px; 
   cursor: pointer;
-  font-weight: bold; /* Increased font weight */
+  font-weight: bold; 
 }
 
 main {
@@ -75,7 +75,15 @@ main {
   gap: 10px;
 }
 
-.task button.edit, .task button.delete {
+.task button.edit {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task button.delete {
   background-color: #e74c3c;
   color: white;
   border: none;
@@ -84,9 +92,9 @@ main {
 }
 
 .task button.edit:hover {
-  background-color: #c0392b;
+  background-color: #044E80;
 }
 
 .task button.delete:hover {
-  background-color: #d9534f;
+  background-color: #c0392b;
 }
