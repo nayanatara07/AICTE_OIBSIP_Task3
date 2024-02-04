@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#new-task-input {
+  padding: 10px; /* Increased padding for input */
+  font-size: 16px;
+  font-weight: bold; /* Increased font weight */
+}
+
+#new-task-submit {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Increased padding for button */
+  cursor: pointer;
+  font-weight: bold; /* Increased font weight */
+}
+
+main {
+  padding: 20px;
+}
+
+.task-list {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.task .content {
+  flex-grow: 1;
+}
+
+.task input.text {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.task .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task button.edit, .task button.delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task button.edit:hover {
+  background-color: #c0392b;
+}
+
+.task button.delete:hover {
+  background-color: #d9534f;
+}
